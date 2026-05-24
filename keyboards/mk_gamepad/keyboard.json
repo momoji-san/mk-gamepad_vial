@@ -1,0 +1,47 @@
+{
+    "manufacturer": "momoji",
+    "keyboard_name": "mk_gamepad",
+    "maintainer": "momoji",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+        "rgblight": true
+    },
+        "rgblight": {
+            "led_count": 1
+    },
+        "ws2812": {
+            "driver": "vendor",
+            "pin": "GP16"
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP5", "GP6", "GP7", "GP8", "GP14", "GP15", "GP26", "GP27"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "vid": "0x1209",
+        "pid": "0xF800"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0},
+                {"matrix": [0, 5], "x": 5, "y": 0},
+                {"matrix": [0, 6], "x": 6, "y": 0},
+                {"matrix": [0, 7], "x": 7, "y": 0}
+            ]
+        }
+    }
+}
